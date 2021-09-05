@@ -5,9 +5,6 @@ body,html{
     margin: 0;
     padding: 0;
 }
-body{
-    height: 200vh;
-}
 
 /* Titre du site */
 .navbar .titre-nav{
@@ -38,17 +35,17 @@ body{
 /* Header */
 
 /* Navbar */
-ul {
+.item-nav {
     display: flex;
     list-style: none;
     margin-right: 40px;
 }
 
-ul li{
+.item-nav li{
     margin-left: 25px;
 }
 
-ul li a{
+.item-nav li a{
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
@@ -61,5 +58,51 @@ ul li a{
     margin-top: 75px;
     text-transform: uppercase;
 }
-/* Bouton 1 */
+/* Section 1 */
 
+.sect1{
+    height: 300px;
+    width: 100%;
+    background-color: tomato;
+    margin-top: 0;
+}
+.sect1 h1{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 10px;
+}
+.sect1 p {
+    overflow: hidden;
+    margin: 0 5%;
+}
+.sect2{
+    display: flex;
+    justify-content: space-around;
+}
+.sect2 img{
+    width: 350px;
+    height: 150px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(82, 78, 78);
+}
+footer h4{
+    text-align: center;
+    font-size: 1rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer i{
+    font-size: 1.5rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
