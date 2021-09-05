@@ -79,11 +79,20 @@ body,html{
     display: flex;
     justify-content: space-around;
 }
-.sect2 img{
-    width: 350px;
-    height: 150px;
+.sect2 .part-gauche{
+    width: 75%;
+    margin-top: 15px;
+    height: 500px;
+    border: 2px solid black;
+    border-color: brown;
 }
-
+.sect2 .part-droite{
+    width: 20%;
+    height: 150px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-color: rgb(32, 63, 54);
+}
 /* Footer */
 
 footer{
